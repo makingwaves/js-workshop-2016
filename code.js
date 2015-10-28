@@ -1,7 +1,12 @@
 (function(global){
 
-function add(a,b) { 
-    return a+b;
+function add(a,b,c,n) { 
+    var res=0;
+    
+    for(var i=0; i< arguments.length; i++) 
+        res+=arguments[i];
+
+    return res;
 }
 
 
