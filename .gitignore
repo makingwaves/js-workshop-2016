@@ -1,3 +1,6 @@
+# This files contains patterns on what files to not add to the Git repo
+# They will essentially be invisible to git
+
 # Logs
 logs
 *.log
