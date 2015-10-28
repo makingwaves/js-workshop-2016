@@ -11,7 +11,7 @@ function add(a,b,c,n) {
 
 
 function multiply(a,b){
-   x = a * b;
+    var x = a * b;
     return x;
 }
 
