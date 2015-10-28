@@ -1,6 +1,7 @@
+(function(global){
 
 function add(a,b) { 
-    return 0;
+    return a+b;
 }
 
 
@@ -9,7 +10,9 @@ function multiply(a,b){
     return x;
 }
 
-window.myLib = {
+global.myLib = {
     add : add,
     multiply : multiply
 }
+
+})(window);

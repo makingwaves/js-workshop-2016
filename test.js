@@ -2,7 +2,7 @@ describe('My Math Library', function() {
     var expect = chai.expect;
 
     describe('#add', function(){
-        it.only('should add two numbers', function() {
+        it('should add two numbers', function() {
             expect(myLib.add(1,2)).to.equal(3);
         });
 
