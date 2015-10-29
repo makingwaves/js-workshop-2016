@@ -10,9 +10,12 @@ function functionCreator(){
 function memoize(fn){
     var cache = {};
 
-    return function(a){
-        var res = fn(a);
-        cache[a] = res;
+    return function(){
+        var key = [].join.call(arguments);
+        if(cache[key]) return cache[key];
+
+        var res = fn.apply(null, arguments);
+        cache[key] = res;
         return res;
     }
 }
