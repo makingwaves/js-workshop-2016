@@ -1,0 +1,10 @@
+{
+  "name": "closures",
+  "repository": "https://github.com/makingwaves/js-workshop-2015",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  }
+}
