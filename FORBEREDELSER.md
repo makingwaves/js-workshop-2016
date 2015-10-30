@@ -9,6 +9,10 @@ Dette må være på plass før workshopen
 
 Har du sjekket ut koden og fulgt stegene over bør du kunne kjøre følgende kommandoer i konsollen:
 ```
+npm install browserify -g 
+npm install watchify -g
+npm install mocha -g
+npm install karma -g
 npm install
 ```
 Er alt ok bør du ikke se noen feilmeldinger
