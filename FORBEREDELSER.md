@@ -7,12 +7,11 @@ Dette må være på plass før workshopen
 - Installert Chrome
 - Vite hvordan du åpner kommandolinja på maskinen din og navigerer til en mappe
 
-Har du sjekket ut koden og fulgt stegene over bør du kunne kjøre følgende kommandoer i konsollen:
+Har du sjekket ut koden og fulgt stegene over bør du kunne kjøre følgende kommandoer i konsollen _fra den mappen du sjekket ut koden i_:
 ```
 npm install browserify -g 
 npm install watchify -g
 npm install mocha -g
-npm install karma -g
 npm install
 ```
 Er alt ok bør du ikke se noen feilmeldinger
