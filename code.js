@@ -1,6 +1,12 @@
-function functionCreator(){
-    /** fill me in, buddy */
-    return;
+function functionCreator(arg){
+    return function() {
+        return arg;
+    }
+}
+
+function argumentsToArray(){
+    var args = [].slice.call(arguments,0);
+    return args;
 }
 
 /**
