@@ -9,4 +9,5 @@ npm install
 ```
 
 - Open index.html
+- Implement the basic functions so that the tests pass
 - Implement `memoize()` so that the tests pass
