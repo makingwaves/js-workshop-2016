@@ -15,7 +15,7 @@ Then
 - Install all dependencies by running `npm install`
 - Open index.html in Chrome.
 - Start Developer Tools (Cmd-Opt-I on Mac, Ctrl-Shift-I on Win)
-- Add the 'js-workshop-2015' [folder to the Chrome Workspace](https://developer.chrome.com/devtools/docs/workspaces)
+- Add the 'js-workshop-2015' [folder to the Chrome Workspace](https://developer.chrome.com/devtools/docs/workspaces), if you haven't done so already
 - Fix the failing test by edititing the `code.js` file _in Chrome_
 
 All good so far?
