@@ -1,5 +1,33 @@
 var expect = chai.expect;
 
+describe('basics', function() {
+    describe('functionCreator()', function() {
+
+        it('should return a function', function() {
+            var result = functionCreator();
+            expect(result).to.be.a('function');
+        });
+
+        it('should return a function that returns the argument to the creating function', function() {
+            var newFunc = functionCreator('foobar');
+            expect( newFunc() ).to.equal('foobar');
+        });
+
+    });
+
+    describe('argumentsToArray', function() {
+        it('should be a function', function() {
+            expect(typeof argumentsToArray === 'function').to.equal(true);
+        });
+
+        it('should returns its arguments as a true array', function() {
+            var result = argumentsToArray(1,2,3,4);
+            expect(result).to.be.an('array');
+            expect(result).to.eql([1,2,3,4]);
+        });
+    });
+});
+
 describe('memoize', function() {
 
     function fibonacci (n) {

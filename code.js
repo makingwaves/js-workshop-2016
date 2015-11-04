@@ -1,3 +1,8 @@
+function functionCreator(){
+    /** fill me in, buddy */
+    return;
+}
+
 /**
  * Function that "remembers" previous calls to save computation
  * @param {Function} fn a function
