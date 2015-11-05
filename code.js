@@ -53,7 +53,13 @@ function copyArrayLikeObject(myArray){
 
 /**
  * Function that "remembers" previous calls to save computation
+ *
  * Yes, we are talking about caching.
+ * No, it is not handling all types of arguments.
+ *
+ * For instance it does not handle arguments that are not primitives,
+ * such as objects and functions. That would mean extra  work that 
+ * not necessarily would contribute much to the understanding.
  *
  * @param {Function} fn a function
  */
@@ -63,10 +69,9 @@ function memoize(fn){
     return function(){
         /* 
          * Convert the arguments array to  a true array.
-         * As the function is expecting multiple arguments, we need
-         * to apply our list of arguments to the function to be able to utilize it
          */
         var args = copyArrayLikeObject(arguments);
+
         // Convert the argument array to a string - this only works with a true array
         var key = args.join();
 
