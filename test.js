@@ -1,6 +1,12 @@
 var expect = chai.expect;
 
+/** 
+    De to første funksjonene du implementerer er kun for trening.
+    Det er ikke meningen at man skal bruke dem direkte i neste oppgave.
+*/
+
 describe('basics', function() {
+
     describe('functionCreator()', function() {
 
         it('should return a function', function() {
