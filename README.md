@@ -9,14 +9,14 @@ Workshopen er rettet mot de som kan programmere, men som ikke helt kjenner seg i
 ## Hva trenger du å kunne?
 Hva angår forkunnskaper trenger du ikke bekymre deg. Denne workshopen antar kun at du kan programmere et språk i C-familien (Java, C#, og lignende). Du er likevel ikke _helt_ fritatt for forberedelser :grin:
 
-I denne workshopen skal vi gjennom en god del forskjellige emner, og for å ha en god flyt bør du før workshopen ha installert en git-klient, klonet dette repoet, installert Node og satt opp Chrome for _skriving av filer_. Se [FORBEREDELSER.md](https://github.com/makingwaves/js-workshop-2015/blob/master/FORBEREDELSER.md).
+I denne workshopen skal vi gjennom en god del forskjellige emner, og for å ha en god flyt bør du før workshopen ha installert en git-klient, klonet dette repoet, installert Node og satt opp Chrome for _skriving av filer_. Se [FORBEREDELSER.md](https://github.com/makingwaves/js-workshop-2016/blob/master/FORBEREDELSER.md).
 
 ## Hvordan foregår workshopen?
 Vi starter med en lynpresentasjon av javascript i femte standardutgave (ES5), før vi så går emnevis over på selve workshopen. Vi kommer til å introdusere et par emner av gangen, fulgt av oppgaver der man jobber med ideene som er blitt presentert. Oppgavene kommer til å ligge som brancher her på GitHub, og vil ikke være tilgjengelig _før_ workshopen starter :fearful:
 
 Hver branch har en README.md fil (som denne) der det står hva man skal gjøre. Ikke kast bort tiden på trivialiteter!Det er hele tiden _veldig lov_ å spørre om man sitter fast; være seg verktøyissues eller kode.
 
-Det kan være en idé å sjekke ut vårt lille [Git cheat sheet](https://github.com/makingwaves/js-workshop-2015/blob/master/GIT-CHEAT-SHEET.md) om du plutselig har problemer.
+Det kan være en idé å sjekke ut vårt lille [Git cheat sheet](https://github.com/makingwaves/js-workshop-2016/blob/master/GIT-CHEAT-SHEET.md) om du plutselig har problemer.
 
 ![Git XKCD](http://imgs.xkcd.com/comics/git.png)
 

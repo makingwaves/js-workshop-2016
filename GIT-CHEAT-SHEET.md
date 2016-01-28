@@ -8,8 +8,8 @@ Anbefalt: [Git-boka](https://git-scm.com/doc) (gratis!)
 
 ## Hente ut kildekoden fra GitHub
 ```
-git clone https://github.com/makingwaves/js-workshop-2015.git
-cd js-workshop-2015
+git clone https://github.com/makingwaves/js-workshop-2016.git
+cd js-workshop-2016
 ```
 Du har nå klonet repoet (kodelageret) og sjekket ut `master`-branchen.
 

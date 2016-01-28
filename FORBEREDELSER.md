@@ -5,7 +5,7 @@ Dette må være på plass før workshopen
 - [Installert Node](https://nodejs.org)
 - [Klonet dette repoet](#kloning-av-repoet-til-privat-maskin) til din egen maskin
 - Installert Chrome
-- Lagt til 'js-workshop-2015' [i Chrome Workspace](https://developer.chrome.com/devtools/docs/workspaces)
+- Lagt til 'js-workshop-2016' [i Chrome Workspace](https://developer.chrome.com/devtools/docs/workspaces)
 - Vite hvordan du åpner kommandolinja på maskinen din og navigerer til en mappe
 
 Har du sjekket ut koden og fulgt stegene over bør du kunne kjøre følgende kommandoer i konsollen _fra den mappen du sjekket ut koden i_:
