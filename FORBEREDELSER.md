@@ -24,10 +24,10 @@ Mer utfyllende info
 
 Git må være installert. Har du ikke installert Git på maskinen din allerede [gjør du det nå](https://git-scm.com/downloads). 
 
-Om du foretrekker å bruke et GUI som [GitHub Desktop](https://desktop.github.com) antas det at du er i stand til å finne fram til tilsvarende kommandoer i GUI-et ditt som vises under.
+Om du foretrekker å bruke et GUI som [GitHub Desktop](https://desktop.github.com) eller [SourceTree](https://www.sourcetreeapp.com) (_mye_ bedre) antas det at du er i stand til å finne fram til tilsvarende kommandoer i GUI-et ditt som vises under.
 
 Naviger deg fram til en mappe du ønsker å sjekke ut koden i og skriv følgende i konsollen
 ```bash
-git clone https://github.com/makingwaves/js-workshop-2015.git
-cd js-workshop-2015
+git clone https://github.com/makingwaves/js-workshop-2016.git
+cd js-workshop-2016
 ```
